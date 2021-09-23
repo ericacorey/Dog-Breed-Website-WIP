@@ -1,0 +1,21 @@
+button {
+    background-color: rgb(217, 142, 236);
+    background-image: linear-gradient(purple, pink);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    size: 50px;
+  }
+  
+  h1 {
+    font-size: 50px;
+    background-image: linear-gradient(rgb(173, 142, 173), pink);
+  }
+  
+  img {
+    border-radius: 95%;
+  }
+  
+  
+  /*width: 175px;
+  height: 175px;
+  object-fit: cover;/**test this
