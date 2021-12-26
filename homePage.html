@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Breeder Info : Main Page</title>
   </head>
   <nav>
     <a href="homePage.html">Home</a>
@@ -16,27 +16,93 @@
     <a href="quiz.html">Quizes</a>
   </nav>
   <body>
-    <h1>Welcome to Breeder Info!</h1>
+    <article>
+      <h1>Welcome to Breeder Info!</h1>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img
+            class="roundedcorners"
+            src="puppyNudge.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Article One</div>
+        </div>
 
-  
-  <span class="purpleStripes">
-    <h2>About Breeder Info:</h2>
- <p >Welcome to breeder info! We are a compact website for all your breed-info needs.<br> Be it dogs, cats, or birds. This is a go-to hub for pet information.</p></span>
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img
+            class="roundedcorners"
+            src="puppyNudge.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Article Two</div>
+        </div>
 
-    <h2>Articles</h2>
-    <p>
-      placehodler pagraph placehodler paragraph this is a placeholder paragraph.     <img src="/pics/puggoPug.jpg">
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img
+            class="roundedcorners"
+            src="puppyNudge.jpg"
+            style="width: 100%"
+          />
+          <div class="text">Article Three</div>
+        </div>
 
-    </p>
+        <!-- Next and previous buttons -->
 
-    <h2 id="quizH2">Take The Quiz!</h2>
-    <p>Placeholder paragraph placeholder paragraph.</p>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" &nbsp; onclick="currentSlide(1)"></span>
+        <span class="dot" &nbsp; onclick="currentSlide(2)"></span>
+        <span class="dot" &nbsp; onclick="currentSlide(3)"></span>
+      </div>
+
+      <section>
+        <h2>About Breeder Info:</h2>
+        <p class="welcome">
+          Welcome to breeder info! We are a compact website for all your
+          breed-info needs.<br />
+          Be it dogs, cats, or birds. This is a go-to hub for pet information.
+        </p>
+      </section>
+
+      <section>
+        <h2>Articles</h2>
+        <div>
+          <p class="welcome">
+            placehodler pagraph placehodler paragraph this is a placeholder
+            paragraph.
+            <img id="mainpic1" src="./pics/puppyTug.jpeg" />
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="quizH2">Take The Quiz!</h2>
+        <p class="welcome">
+          Placeholder paragraph placeholder paragraph.
+          <img id="mainpic2" src="pics/doggoFran.jpg" />
+        </p>
+        <div class="image-container"></div>
+      </section>
+      <footer>
+        <p id="footerPara">
+          Erica D. Corey
+          <a href="https://www.linkedin.com/in/erica-corey-38b6761b1/"
+            >Linkedin</a
+          >
+          <a href="mailto:erica.corey@student.fairfield.edu">Send Email</a>
+        </p>
+      </footer>
+    </article>
   </body>
-  <footer>
-    <p id="footerPara">
-      Erica D. Corey
-      <a href="https://www.linkedin.com/in/erica-corey-38b6761b1/">Linkedin</a>
-      <a href="mailto:erica.corey@student.fairfield.edu">Send Email</a>
-    </p>
-  </footer>
+  <script src="firstJs.js" type="text/javascript"></script>
 </html>
