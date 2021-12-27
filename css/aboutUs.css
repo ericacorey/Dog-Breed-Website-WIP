@@ -1,0 +1,82 @@
+#aboutUs {
+  background-image: url("https://images.pexels.com/photos/1462053/pexels-photo-1462053.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+  color: white;
+  width: 1570px;
+  height: 204px;
+  margin-top: 0px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#quickLinks {
+  color: white;
+  float: right;
+}
+
+body {
+  background-color: #5558b0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav a {
+  color: black;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal, black;
+  font-size: 24px;
+  line-height: 26px;
+  padding: 30px;
+  text-decoration: none;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+nav {
+  background-color: #9093e1;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+footer {
+  margin-top: 65px;
+  clear: left;
+  text-align: center;
+  font-style: italic;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.welcome {
+  width: 1503px;
+  height: 204px;
+}
+
+#mainpic1,
+#mainpic2 {
+  float: right;
+}
+
+p {
+  margin-right: 20px;
+}
+
+#quickLinks {
+  float: left;
+  width: 90px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 0px;
+  padding: 10px;
+}
+main {
+  margin-left: 100px;
+  padding: 10px;
+}
