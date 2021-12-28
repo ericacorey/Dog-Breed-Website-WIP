@@ -1,9 +1,10 @@
 #aboutUs {
   background-image: url("https://images.pexels.com/photos/1462053/pexels-photo-1462053.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   color: white;
-  width: 1570px;
+  width: 1483px;
   height: 204px;
   margin-top: 0px;
+  float: left;
 
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +13,6 @@
 
 #quickLinks {
   color: white;
-  float: right;
 }
 
 body {
@@ -63,13 +63,17 @@ img {
 }
 
 p {
+  text-align: center;
   margin-right: 20px;
+  margin-left: 20px;
 }
 
-#quickLinks {
+.qlinks {
+  font-size: medium;
   float: left;
-  width: 90px;
-  padding: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 h1 {
@@ -79,4 +83,19 @@ h1 {
 main {
   margin-left: 100px;
   padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #8082c9;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
 }
